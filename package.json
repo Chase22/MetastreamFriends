@@ -1,0 +1,17 @@
+{
+  "name": "metastream-friends",
+  "version": "1.0.0",
+  "description": "A firefox extensions to add a friendslist to metastream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-ext run -v",
+    "build": "npm run lint && web-ext build -o",
+    "lint": "web-ext lint -o text"
+  },
+  "author": "Chase <chase@mailbox.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^5.1.0"
+  }
+}

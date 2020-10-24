@@ -1,0 +1,30 @@
+.metastream_popup {
+    display: flex;
+    flex-direction: column;
+    min-width:100px;
+}
+
+.metastream_friends_popup_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.metastream_friends_popup_name {
+    margin: 2px;
+    line-height: 2;
+}
+
+.metastream_friends_popup_enter_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.metastream_friends_popup_delete_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.metastream_friends_popup_button {
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Metastream Friends",
+  "version": "1.0",
+
+  "description": "Adds a Friendslist to Metastream",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "64": "icons/64x64.png"
+  },
+  "options_ui": {
+    "page": "src/options/options.html",
+    "browser_style": true
+  },
+  "browser_action": {
+    "default_icon": "icons/64x64.png",
+    "default_title": "Metastream Friendslist",
+    "default_popup": "src/popup/popup.html",
+    "browser_style": true
+  },
+  "omnibox": { "keyword" : "metastream" }
+}
